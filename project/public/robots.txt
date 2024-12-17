@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://ge3p.ch/sitemap.xml
+
+# Optimisations pour les crawlers
+Crawl-delay: 5
+Host: ge3p.ch
+
+# Directives spécifiques pour les images
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.webp$
+
+# Directives spécifiques pour les ressources statiques
+Allow: /*.css$
+Allow: /*.js$
